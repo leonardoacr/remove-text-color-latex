@@ -10,6 +10,15 @@ When submitting scientific papers for revision, it is common for journals to req
 
 Command to be removed from the .tex file:
 
+```bash
 \textcolor{red}{...}
+```
 
-Feel free to contribute to the project or provide feedback. Enjoy the convenience of removing red text colors effortlessly!
+## Updates
+- Includes the possibility of having nested commands inside of the textcolor command. Like:
+
+```bash
+\textcolor{red}{... \textit{...} ...}
+```
+
+Minor bugs still might be present. Feel free to contribute to the project or provide feedback. 
